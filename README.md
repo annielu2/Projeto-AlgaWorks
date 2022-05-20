@@ -13,6 +13,4 @@ A seguir o protótipo do site:
 2. Login:
 3. Assinar:
 
-<h2>Link do protótipo do Figma</h2>
-<br>
 [![Facebook](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/file/bCrvDzurpAgOj98CfWBVdB/Untitled?node-id=2%3A2)
