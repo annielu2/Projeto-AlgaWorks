@@ -28,8 +28,10 @@ header{
 
 article{
     border: 1px solid #a8a8a8;
-    width: 370px;
+    width: 350px;
     padding: 10px;
+    float: left;
+    margin: 20px;
 }
 
 .titulo{
@@ -44,6 +46,7 @@ article{
 }
 .autonomo, .micro, .pequena{
     text-align: center;
+    line-height: 25px;
 }
 
 .preco{
@@ -59,4 +62,24 @@ article{
 
 #planos{
     padding: 80px 0;
+}
+
+#planos::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+.button{
+    display: inline-block;
+    border: 1px solid #085A97;
+    background-color: #085A97;
+    color: whitesmoke;
+    padding: 10px 18px;
+    text-decoration: none;
+    border-radius: 7px;
+}
+
+.button:hover, .button:focus{
+    text-decoration: underline;
 }
