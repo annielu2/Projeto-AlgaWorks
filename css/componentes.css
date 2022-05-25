@@ -1,0 +1,64 @@
+.plano{
+    padding: 10px;
+    border: 1px solid #a8a8a8;
+    margin-bottom: 5%;
+
+    text-align: center;
+    line-height: 25px;
+}
+
+.plano__cabecalho{
+    background-color: #A8A8A8FF;
+    color: whitesmoke;
+
+    text-align: center;
+    line-height: 2.5;
+
+    margin: -10px;
+    margin-bottom: 0;
+
+    font-weight: normal;
+    font-size: 28px;
+}
+
+.plano__preco{
+    margin: 20px 0;
+
+    font-size: 25px;
+}
+
+.planos__caracteristicas{
+    list-style: none;
+
+    margin: 20px 0;
+    padding: 0;
+}
+
+.button{
+    display: inline-block;
+
+    border: 1px solid #aaaaaa;
+    border-radius: 7px;
+
+    background-color: #aaaaaa;
+    color: whitesmoke;
+    text-decoration: none;
+
+    padding: 10px 18px;
+}
+
+.button:hover, .button:focus{
+    background-color: #07497a;
+    text-decoration: none;
+    color: whitesmoke;
+}
+.button--sign{
+    border: 1px solid #085A97;
+
+    background-color: #085A97;
+}
+
+.button--sign:hover, .button--sign:focus{
+    background-color: #07497a;
+
+}
