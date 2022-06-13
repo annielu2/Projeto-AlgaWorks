@@ -2,9 +2,9 @@
 
 Neste projeto será desenvolvido um site para uma empresa
 fictícia MyPilas utilizando como base as aulas do curso da
-AlgaWorks.
+AlgaWorks. O design do projeto será responsivo.
 
-A seguir o protótipo do site:
+A seguir o protótipo do site para Desktop:
 
 1. Página inicial:
 

@@ -1,4 +1,6 @@
 .plano{
+    position: relative;
+
     padding: 10px;
     border: 1px solid #a8a8a8;
     margin-bottom: 5%;
@@ -33,6 +35,21 @@
 
     margin: 20px 0;
     padding: 0;
+}
+.plano--mais--popular::after{
+    position: absolute;
+    top: -10px;
+    left: -10px;
+
+    content: "MAIS POPULAR";
+    background-color: crimson;
+
+    color: white;
+    font-size: 0.7124em;
+
+    line-height: 2.5;
+    padding: 0 10px;
+
 }
 
 .button{
@@ -99,6 +116,8 @@
 }
 
 .depoimento > blockquote{
+    position: relative;
+
     margin: 0;
     padding: 0 60px;
 
@@ -106,6 +125,17 @@
     font-size: 1em;
 }
 
+.depoimento > blockquote::before{
+    position: absolute;
+    left: 0;
+    top: -0.426136364em;
+
+    color: #ACACAC;
+
+    font-size: 8em;
+
+    content: "\201C";
+}
 .depoimento__autor{
     margin-top: 40px;
 

@@ -5,13 +5,23 @@
     background-color: #f5f5f5;
 }
 
+.layout-cabecalho--home{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 9999;
+}
+
 .layout-cabecalho img{
     margin-top: 12px;
 
 }
 
+
 .layout-chamada{
     padding: 80px 0;
+    margin-top: 60px;
 
     background-color: #A1BCD1;
 }
