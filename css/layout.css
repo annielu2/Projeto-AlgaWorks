@@ -10,7 +10,17 @@
 
 }
 
+.layout-chamada{
+    padding: 80px 0;
 
+    background-color: #A1BCD1;
+}
+
+.layout-depoimento{
+    padding: 80px 0;
+
+    background-color: #E6E6E6;
+}
 .layout-planos{
     padding: 80px 0;
 }
