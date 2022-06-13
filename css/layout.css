@@ -24,3 +24,10 @@
 .layout-planos{
     padding: 80px 0;
 }
+
+.layout-rodape{
+    background-color: #2C2C2C;
+
+    color: white;
+    text-align: center;
+}

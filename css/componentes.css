@@ -121,6 +121,13 @@
     margin-top: 10px;
 }
 
+.rodape__direitos{
+    color: white;
+
+    text-align: center;
+
+    font-size: 1.1rem;
+}
 @media (min-width: 992px) {
     .chamada{
         padding-left: 10%;
@@ -135,4 +142,45 @@
 
         font-size: 2.8rem;
     }
+}
+
+.rodape__info{
+    margin: 0;
+    padding: 20px;
+
+    font-size: 1.4rem;
+
+    text-align: left;
+}
+
+.rodape__info__titulo{
+    color: #A1BCD1;
+
+}
+
+.rodape__info__opcoes{
+    list-style: none;
+
+    color: #D0D0D0;
+    line-height: 10px;
+
+    font-size: 1em;
+}
+
+.rodape__direitos{
+    padding: 10px 0;
+    background-color: #1D1D1D;
+}
+
+.rodape__info__opcoes > h2{
+    font-size: 1em;
+}
+
+.rodape__info__opcoes__img{
+    padding: 10px 0;
+}
+
+.rodape__info__opcoes__img > div{
+    padding: 0 7px;
+    display: inline-block;
 }
