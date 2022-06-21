@@ -6,6 +6,9 @@ html{
     box-sizing: border-box;
 }
 
+a:link{
+    text-decoration: none;
+}
 body{
     margin: 0;
 

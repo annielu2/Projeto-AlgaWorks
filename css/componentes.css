@@ -57,6 +57,7 @@
 
     border: 1px solid #aaaaaa;
     border-radius: 7px;
+    line-height: normal;
 
     background-color: #aaaaaa;
     color: whitesmoke;
@@ -69,13 +70,14 @@
     text-decoration: none;
     color: whitesmoke;
 }
-.button--sign{
+.button--sign, .button__login{
     border: 1px solid #085A97;
 
     background-color: #085A97;
 }
 
-.button--sign:hover, .button--sign:focus{
+.button--sign:hover, .button--sign:focus,
+.button__login:hover, .button__login:focus{
     background-color: #07497a;
 
 }
@@ -213,4 +215,98 @@
 .rodape__info__opcoes__img > div{
     padding: 0 7px;
     display: inline-block;
+}
+
+.navegacao__menu{
+    float: right;
+}
+
+.botao--chaveador{
+    height: 24px;
+    width: 24px;
+    border: 0;
+
+    background: none;
+    background-image: url("../img/menu.png");
+
+    outline: none;
+
+    margin-top: 20px;
+
+
+}
+
+@media (min-width: 992px) {
+    .botao--chaveador{
+        display: none;
+    }
+}
+
+.menu{
+
+    margin: -10px;
+
+    font-size: 1.4rem;
+    color: #337ab7;
+
+    list-style: none;
+}
+
+@media (max-width: 992px) {
+    .menu{
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+
+        display: none;
+        width: 200px;
+        padding: 20px;
+        border-right: 1px solid #eeeeee;
+
+        background-color: #fbfbfb;
+
+    }
+    .menu__item{
+        padding: 0 10px;
+        display: block;
+        line-height: 3;
+    }
+    .menu__item:hover{
+        background-color: #e9f3fa;
+        text-decoration: none;
+        color: #337ab7;
+
+    }
+
+    .menu__item:last-of-type{
+        background-color: #fbfbfb;
+    }
+    .menu__item-botao{
+        margin-top: 20px;
+    }
+
+    .menu.esta-exibindo{
+        display: block;
+    }
+}
+
+@media (min-width: 992px) {
+    .menu__item{
+        display: block;
+
+        line-height: 3;
+    }
+
+    .menu__item-botao{
+        margin-top: 20px;
+    }
+
+    .menu__item{
+        display: inline-block;
+        padding: 0 10px;
+
+    }
+
+
 }
