@@ -8,7 +8,7 @@ A seguir o protótipo do site para Desktop:
 
 1. Página inicial:
 
-![](img/Tela Inicial.png)
+![](img/Tela_Inicial.png)
 
 2. Login:
 
