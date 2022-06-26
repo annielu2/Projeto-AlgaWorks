@@ -8,10 +8,13 @@ A seguir o protótipo do site para Desktop:
 
 1. Página inicial:
 
-![](img/Desktop.png)
+![](img/Tela Inicial.png)
 
 2. Login:
+
 3. Assinar:
+
+![](img/Assinatura.png)
 
 Link do protótipo no Figma:
 
