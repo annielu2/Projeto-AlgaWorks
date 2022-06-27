@@ -380,6 +380,8 @@
 }
 
 .login-lembrar{
+    position:relative;
+    float: left;
     text-align: left;
 }
 
@@ -449,4 +451,46 @@
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
+}
+
+.forgot-password{
+    position: relative;
+    float: right;
+    display: inline-block;
+
+}
+
+.login-conectar{
+    padding: 15px 0;
+
+    color: #808080;
+
+}
+
+.redes-sociais{
+    padding: 10px 0;
+}
+
+.redes-sociais > div{
+    padding: 7px;
+    display: inline-block;
+
+}
+
+.login__info{
+    background-color: white;
+}
+
+@media (min-width: 900px) {
+    .body-login{
+        background-image: url("../img/buildings2.jpg");
+    }
+    .login__info{
+        margin-bottom: -50px;
+        margin-top: -50px;
+        margin-right: -80px;
+        padding: 80px;
+    }
+
+
 }
