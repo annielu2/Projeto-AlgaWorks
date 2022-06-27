@@ -2,9 +2,55 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Login</title>
+    <title>MyPilas</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/componentes.css">
 </head>
 <body>
+    <div class="layout-login">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-7">
+                </div>
 
+                <div class="col-sm-5">
+                    <div class="login__info">
+                        <h1 class="login__info__titulo">Login</h1>
+
+                        <div class="login__info__registrar">
+                            Não possui uma conta? <a class="registrar" href="registrar.html"> Registre-se </a>
+                        </div>
+
+                        <div class="login-email">
+                            <label for="email"></label>
+                            <input id="email" type="text" class="campo-login" placeholder="E-mail" required>
+                        </div>
+
+                        <div class="login-senha">
+                            <label for="lg-senha"></label>
+                            <input id="lg-senha" type="text" class="campo-login" placeholder="Senha" required>
+                        </div>
+
+                        <div class="login-lembrar">
+                            <label class="login-lembrar__checkbox">Lembrar-me
+                                <input type="checkbox" checked="checked">
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+
+                        <div style="text-align: center; margin-top: 15px">
+                            <a href="index.html">
+                                <input type="submit" value="Login" class="button button--prin button--login">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
 </body>
 </html>
